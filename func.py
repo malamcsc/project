@@ -6,3 +6,6 @@ def srrdate(str_date):
 
 def root(num):
 	return num*num
+
+def factor(num):
+	return num*num*num
