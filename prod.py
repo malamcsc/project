@@ -5,15 +5,13 @@
 # DB_UNAME = 'postgres'       # PostgreSQL user name
 # DB_PWD = 'root12'           # PostgreSQL user password
 
-DB_PGNAME = 'api-db-test'     # PostgreSQL server name
+DB_PGNAME = 'api-db-test.postgres.database.azure.com'     # PostgreSQL server name
 DB_PORT = '5432'         # PostgreSQL server port
-DB_UNAME = 'malamcsc'       # PostgreSQL user name
-DB_PWD = 'Patna@123'           # PostgreSQL user password
+DB_UNAME = 'malamcsc@api-db-test'       # PostgreSQL user name
+DB_PWD = 'Patna123'           # PostgreSQL user password
 
+pgsql_connection_string = "postgres://"+DB_UNAME+":"+DB_PWD+"@"+DB_PGNAME+:"+DB_PORT+"/"
 
-pgsql_connection_string = "postgresql://"+DB_UNAME+"%40"+DB_PGNAME+":"+DB_PWD+"@"+DB_PGNAME+".postgres.database.azure.com"+":"+DB_PORT+"/"
-
-#pgsql_connection_string = "postgresql+psycopg2://"+DB_UNAME+":"+DB_PWD+"@"+DB_PGNAME+":"+DB_PORT+"/"
                                 
 
 SQLALCHEMY_BINDS = {
