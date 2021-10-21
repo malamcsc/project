@@ -10,7 +10,7 @@ DB_PORT = '5432'         # PostgreSQL server port
 DB_UNAME = 'malamcsc@api-db-test'       # PostgreSQL user name
 DB_PWD = 'Patna123'           # PostgreSQL user password
 
-pgsql_connection_string = "postgres://"+DB_UNAME+":"+DB_PWD+"@"+DB_PGNAME+":"+DB_PORT+"/"
+pgsql_connection_string = "postgresql://"+DB_UNAME+":"+DB_PWD+"@"+DB_PGNAME+":"+DB_PORT+"/"
 
                                 
 
