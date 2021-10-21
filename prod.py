@@ -13,7 +13,7 @@ DB_PWD = 'Patna@123'           # PostgreSQL user password
 
 pgsql_connection_string = "postgres://"+DB_UNAME+"%40"+DB_PGNAME+":"+DB_PWD+"@"+DB_PGNAME+".postgres.database.azure.com"+":"+DB_PORT+"/"
 
-#pgsql_connection_string = "postgres+psycopg2://"+DB_UNAME+":"+DB_PWD+"@"+DB_PGNAME+":"+DB_PORT+"/"
+#pgsql_connection_string = "postgresql+psycopg2://"+DB_UNAME+":"+DB_PWD+"@"+DB_PGNAME+":"+DB_PORT+"/"
                                 
 
 SQLALCHEMY_BINDS = {
